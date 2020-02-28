@@ -1,4 +1,5 @@
 package com.trainingtrack.newanimals.model
 
-class Animal {
-}
+data class Animal(
+    val name: String?
+)
